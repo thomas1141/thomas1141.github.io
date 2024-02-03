@@ -1,5 +1,5 @@
 body {
-    background-color: maroon;
+    background-color: white;
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav {
-    background-color: gray;
+    background-color: maroon;
    margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -19,7 +19,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: black;
     flex: 1;
     margin: 0;
 }
@@ -37,7 +37,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background-color: gray;
     display: flex;
 }
 .sidebar {
@@ -102,6 +102,7 @@ h2, h3 {
                 p,
                 li {
                   font-size: 24px;
+                  font-color: black;
                 }
   
                 .content {
