@@ -44,8 +44,8 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 //bonus collectible:
-    createPlatform(1000, 175, 75, 10)
-    createCollectable("database", 1025,100)
+    createPlatform(925, 200, 75, 10)
+    createCollectable("database", 950,100)
 
 // top row
     createPlatform(0, 325, 200, 10)
@@ -73,7 +73,7 @@ $(function () {
 
      //your example function call
 
-    createCollectable("diamond", 1175, 225);
+    createCollectable("database", 1175, 225);
     createCollectable("database", 1175, 400)
 
 
@@ -84,7 +84,7 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
 
      // cannon on left wall, 600px down, shooting once per second
-     createCannon("left", 600, 1000);
+     createCannon("left", 600, 1);
      createCannon("top", 325, 1000);
      createCannon("right", 450, 1000);
      createCannon("right", 225, 5000)
