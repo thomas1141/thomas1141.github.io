@@ -25,12 +25,12 @@ var init = function (window) {
 
         // TODO 2 : Create a function that draws a circle 
         // Code to draw a circle
-    function drawCircle(parameters) {}
+    function drawCircle() {
         circle = draw.randomCircleInArea(canvas, true, true, "#999", 2);
         physikz.addRandomVelocity(circle, canvas);
         view.addChild(circle);
         circles.push(circle);
-
+    }
         // TODO 3 / 7 : Call the drawCircle() function 
        var loopsCompleted = 0; 
        while (loopsCompleted < 100){
@@ -65,7 +65,7 @@ var init = function (window) {
             // TODO 9 : Iterate over the array
            
             
-        }
+        
     
         /* 
         This Function should check the position of a circle that is passed to the 
@@ -111,7 +111,7 @@ var init = function (window) {
         
         app.addUpdateable(window.opspark.game);
     }
-;
+ };
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
 if((typeof process !== 'undefined') &&
